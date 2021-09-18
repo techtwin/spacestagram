@@ -5,9 +5,9 @@ function SpaceCards({ cardObj }) {
   const { title, date, explanation, url } = cardObj
 
   return (
-    <div>
-      <div>
-        <img src={url} alt='' />
+    <div className='card'>
+      <div className='cardContent'>
+      <img src={url} alt='' />
         <h2>{title}</h2>
         <p>{date}</p>
         <p>{explanation}</p>

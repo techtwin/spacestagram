@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Search() {
+function Search({ searchHandler, searchValue }) {
   return (
-    <div>
-      
-    </div>
+    <form className='searchForm'>
+      <input className='searchBar' type="text" placeholder="Search by title" value={searchValue} onChange={searchHandler} />
+    </form>
   )
 }
 

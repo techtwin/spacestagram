@@ -26,14 +26,14 @@ function NasaList() {
   const spaceCards = filteredData().map((api, idx) => (
     <SpaceCards
       key={idx}
-      cardObj = {api}
+      cardObj={api}
     />
   ))
 
   return (
     <div>
       <Search searchHandler={searchHandler} searchValue={searchValue}/>
-      <div>
+      <div className="cardContainer">
         {spaceCards}
       </div>
     </div>
