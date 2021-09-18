@@ -1,13 +1,16 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-image: url('data:image/svg+xml;utf8,<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 1920 80" xmlns="http://www.w3.org/2000/svg"><path d="m0 71 313.687 6.717 154.5 2.283 120-4.568 39-.761 31.5 2.284 52.5-1.523 496.5 1.523 124.5-3.806 73.5 4.568 73.5-3.046 354 3.807 55.5-1.523 31.313-5.955v-71h-1920z" fill="%23f8f8f8"/></svg>');
+  background-repeat: repeat-x;
+  background-size: cover;
 }

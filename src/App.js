@@ -1,5 +1,13 @@
+import Navbar from "./Components/Navbar";
+import NasaList from "./Container/NasaList";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Navbar />
+      <NasaList />
+    </>
+  );
 }
 
 export default App;
