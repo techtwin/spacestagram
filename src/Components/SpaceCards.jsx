@@ -8,9 +8,9 @@ function SpaceCards({ cardObj }) {
     <div className='card'>
       <div className='cardContent'>
       <img src={url} alt='' />
-        <h2>{title}</h2>
-        <p>{date}</p>
-        <p>{explanation}</p>
+        <h2 className="title">{title}</h2>
+        <p className="date">{date}</p>
+        <p className="desc">{explanation}</p>
       </div>
     </div>
   )
