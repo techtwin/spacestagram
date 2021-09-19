@@ -32,10 +32,18 @@ function NasaList() {
 
   return (
     <>
-      <Search searchHandler={searchHandler} searchValue={searchValue}/>
-      <section className="cardContainer">
-        {spaceCards}
-      </section>
+      <Search searchHandler={searchHandler} searchValue={searchValue} />
+      {apiData.length === 0 ?
+        <section className="cardContainer">
+          <div className='loadingDiv'>
+            <img className='loadingImg' src='./ship.gif' alt='loading' />
+          </div>
+        </section>
+        :
+        <section className="cardContainer">
+          {spaceCards}
+        </section>
+      }
     </>
   )
 }
