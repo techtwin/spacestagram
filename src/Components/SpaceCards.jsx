@@ -3,7 +3,7 @@ import Heart from "react-animated-heart";
 
 function SpaceCards({ cardObj }) {
 
-  const { title, date, explanation, url } = cardObj
+  const { title, date, url } = cardObj
   const [isClick, setClick] = useState(false);
 
   console.log(url)
