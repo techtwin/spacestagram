@@ -59,7 +59,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  border: 1px solid #446ffe;
+  border: 1px solid #1fbcff;
 }
 
 .loadingDiv {
