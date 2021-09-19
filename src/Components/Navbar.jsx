@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Navbar({ searchHandler, searchValue }) {
+function Navbar() {
   return (
     <header className="masthead">
       <nav>
-        <img src="" alt="" /> 
-        <h1>Spacestagram</h1>
+        <h1 style={{marginTop: '25px'}}>Spacestagram</h1>
       </nav>
     </header>
   )
