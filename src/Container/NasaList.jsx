@@ -31,12 +31,12 @@ function NasaList() {
   ))
 
   return (
-    <div>
+    <>
       <Search searchHandler={searchHandler} searchValue={searchValue}/>
-      <div className="cardContainer">
+      <section className="cardContainer">
         {spaceCards}
-      </div>
-    </div>
+      </section>
+    </>
   )
 }
 
