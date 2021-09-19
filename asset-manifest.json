@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spacestagram/static/css/main.ca28b9fb.chunk.css",
+    "main.js": "/spacestagram/static/js/main.56e0956a.chunk.js",
+    "main.js.map": "/spacestagram/static/js/main.56e0956a.chunk.js.map",
+    "runtime-main.js": "/spacestagram/static/js/runtime-main.7ecc6985.js",
+    "runtime-main.js.map": "/spacestagram/static/js/runtime-main.7ecc6985.js.map",
+    "static/js/2.f1f1a490.chunk.js": "/spacestagram/static/js/2.f1f1a490.chunk.js",
+    "static/js/2.f1f1a490.chunk.js.map": "/spacestagram/static/js/2.f1f1a490.chunk.js.map",
+    "static/js/3.f0973b79.chunk.js": "/spacestagram/static/js/3.f0973b79.chunk.js",
+    "static/js/3.f0973b79.chunk.js.map": "/spacestagram/static/js/3.f0973b79.chunk.js.map",
+    "index.html": "/spacestagram/index.html",
+    "static/css/main.ca28b9fb.chunk.css.map": "/spacestagram/static/css/main.ca28b9fb.chunk.css.map",
+    "static/js/2.f1f1a490.chunk.js.LICENSE.txt": "/spacestagram/static/js/2.f1f1a490.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/spacestagram/static/media/space_bg.0373de06.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ecc6985.js",
+    "static/js/2.f1f1a490.chunk.js",
+    "static/css/main.ca28b9fb.chunk.css",
+    "static/js/main.56e0956a.chunk.js"
+  ]
+}
