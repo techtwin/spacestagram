@@ -15,7 +15,6 @@ function SpaceCards({ cardObj }) {
             <img src={url} alt={url} />
             <h2 className="title">{title}</h2>
             <p className="date"><span>Capture date:</span> {date}</p>
-            <p className="desc">{explanation}</p>
           </div>
           <div className="heartContainer">
             <Heart isClick={isClick} onClick={() => setClick(!isClick)} />

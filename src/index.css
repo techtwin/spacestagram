@@ -123,12 +123,6 @@ input[type="text"]:focus {
 span {
   font-weight: 500;
 }
-.desc {
-  font-size: 1.1em;
-  text-align: left;
-  padding-left: 0.7em;
-  padding-right: 0.7em;
-}
 
 .heartContainer {
   position: absolute;
@@ -142,9 +136,6 @@ span {
   .card {
     transform: scale(0.9);
     margin-bottom: 0;
-  }
-  .desc {
-    font-size: 1.2em;
   }
   input[type="text"] {
     width: 25em;
@@ -165,9 +156,6 @@ span {
     width: 100%;
     height: 20rem;
     object-fit: cover;
-  }
-  .desc {
-    font-size: 1.08em;
   }
   input[type="text"] {
     width: 30em;
